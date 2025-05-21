@@ -1,0 +1,15 @@
+{
+  "identifier": "path-scope",
+  "permissions": [
+    {
+      "identifier": "core:path:allow-resolve-directory",
+      "on": [
+        {
+          "webview": "main",
+          "window": "main",
+          "url": "local"
+        }
+      ]
+    }
+  ]
+}

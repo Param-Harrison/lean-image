@@ -1,0 +1,15 @@
+{
+  "identifier": "fs-scope",
+  "permissions": [
+    {
+      "identifier": "fs:scope",
+      "allow": [
+        { "path": "$DOWNLOAD/**" },
+        { "path": "$HOME/**" },
+        { "path": "$APPDATA/**" },
+        { "path": "$DOCUMENT/**" },
+        { "path": "$DESKTOP/**" }
+      ]
+    }
+  ]
+}
